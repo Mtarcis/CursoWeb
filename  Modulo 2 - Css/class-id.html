@@ -1,25 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 	<head>
-		<title>Internal Style</title>
+		<title>Classes-Id</title>
 		<meta charset="utf-8">
 		<style type="text/css">
-			p 
-			{
+			p {
 				color: green;
 			}
-			h1 
-			{
+			h1 {
+				color: yellow;
+			}
+			
+			/*Utilizar classe para excessao*/ 
+			.azul {
 				color: blue;
+			}
+			
+			/*Utilizar um unico id por pagina, normalmente para extruturar a pagina*/
+			#principal {
+				background: rgb(197, 47, 47);
 			}
 
 		</style>
 
 	</head>
-	
-	<body>
-		<h1>Estilo CSS (cascading style sheets)</h1>
-		<p>
+
+
+	<body id="principal">
+		<h1 class="azul">Estilo CSS (cascading style sheets)</h1>
+		<p class="azul">
 			After making 18 orbits of Earth since its launch, the Crew Dragon spacecraft successfully attached to the International Space Station’s Harmony module forward port via “soft capture” at 5:51 a.m. EST on Sunday, March 3. The Crew Dragon used the station’s new international docking adapter for the first time since astronauts installed it August 2016.
 
 		</p>
@@ -30,7 +39,7 @@
 		</p>
 
 		<h1>Observaçoes</h1>
-		<p>
+		<p class="azul">
 			After making 18 orbits of Earth since its launch, the Crew Dragon spacecraft successfully attached to the International Space Station’s Harmony module forward port via “soft capture” at 5:51 a.m. EST on Sunday, March 3. The Crew Dragon used the station’s new international docking adapter for the first time since astronauts installed it August 2016.
 
 		</p>
