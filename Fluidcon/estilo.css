@@ -2,11 +2,11 @@ body {
     width: 100%;
 }
 .cabecalho {
-    background: rgba(207, 196, 196, 0.685);
-    border-top: 6px solid rgb(194, 226, 15);
-    border-bottom: 2px solid rgba(207, 196, 196, 0.685);
+    background: rgba(197, 181, 181, 0.884);
+    border-top: 3px solid rgba(197, 181, 181, 0.884);
+    border-bottom: 3px solid rgba(197, 181, 181, 0.884);
     padding: 8px;
-    color: black;
+    color: rgb(22, 20, 20);
     margin: -10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
@@ -14,19 +14,45 @@ body {
 
 }
 .menu {
-   
-    padding:100px;
+       
+    padding:60px;
+    vertical-align: top;
+    color: black;
+    margin: -10px;
+    border-bottom: 10px rgb(228, 187, 55) solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+
+}
+.logo {
+    
+    image-orientation: initial;
     border: 1px black solid;
     color: black;
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-style: normal;
+   
+    
+    
     text-align: left;
+
 }
 
 .sociais {
     text-align: right;
     color: black;
     
+}
+.conteudo {
+    background-color: rgba(0, 0, 0, 0.486); 
+    padding:300px;
+    vertical-align: top;
+    color: black;
+    margin: -10px;
+    
+
+}
+.vertical-align {
+    position: relative;
+    top: 0%;
+    transform: translateY(-50%); /* Adicionar os prefixos dos navegadores */
 }
