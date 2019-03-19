@@ -19,14 +19,14 @@ span{
 }
 
 .cabecalho {
-    background: #A5A095;
-    border-top: 4px solid rgb(141, 136, 126);
-    border-bottom: 2px solid rgb(141, 136, 126);
+    background: rgb(218, 37, 37);
+    border-top: 4px solid rgb(218, 37, 37);
+    border-bottom: 2px solid rgb(218, 37, 37);
     padding: 2px;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -15px;
-    margin-bottom: -15px;
+    margin-bottom: 0px;
     text-align: right;
     
     
@@ -68,7 +68,11 @@ span{
     background: rgb(133, 238, 85);
     color: white;
   }
-
+.banner {
+    background-image: url(imagens/banner_31.jpg);
+    padding: 150px;
+   
+}
 
 .menu {
     padding: 20px;
@@ -78,16 +82,16 @@ span{
     margin-bottom: -10px;
     border-bottom: 13px #FFB91D solid ;
     text-align: right;
-    color: rgb(116, 221, 29);
+    color: rgb(218, 37, 37) ;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 #alinhamento {
     margin-top: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: -10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 0px;
     
 }
 
